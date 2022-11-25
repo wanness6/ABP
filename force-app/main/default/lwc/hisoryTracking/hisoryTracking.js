@@ -7,7 +7,7 @@ const COLUMNS = [
     { label: 'Account Id', fieldName: ACCOUNT_ID.fieldApiName, type: 'text' },
     { label: 'Old value', fieldName: OLD_VALUE.fieldApiName, type: 'text' },
     { label: 'New value', fieldName: NEW_VALUE.fieldApiName, type: 'text' }
-    
+    //test
 ];
 export default class hisoryTracking extends LightningElement {
     columns = COLUMNS;
